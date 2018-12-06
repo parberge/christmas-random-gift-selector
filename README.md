@@ -1,6 +1,6 @@
-# Christmas random present selector
+# Christmas random gift selector
 
-Who should give whom christmas present this year?  
+Who should give whom christmas gift this year?  
 Use this script to find out.
 
 Using the example json provided the output will be (random each time ofc):
