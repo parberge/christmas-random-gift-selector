@@ -8,11 +8,11 @@ with open('participants.json') as FILE:
 data = dict.fromkeys(participants)
 
 for person in data:
-    if participants:
-        possible_receivers = [x for x in participants if x != person]
-        if possible_receivers:
-            receiver = random.choice(possible_receivers)
-            data[person] = receiver
+    possible_receivers = [x for x in participants if x != person]
+    if possible_receivers:
+        receiver = random.choice(possible_receivers)
+        data[person] = receiver
+        if participants:
             participants.remove(receiver)
 
     print(f"{person} will give to {data.get(person)}")
