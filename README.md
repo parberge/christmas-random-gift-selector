@@ -3,7 +3,7 @@
 Who should give whom christmas present this year?  
 Use this script to find out.
 
-Using the example json provided the output will be:
+Using the example json provided the output will be (random each time ofc):
 ```
 $ python generate.py
 mr foo will give to mr bar
