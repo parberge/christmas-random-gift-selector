@@ -5,9 +5,6 @@ import json
 with open('participants.json') as FILE:
     participants = json.load(FILE).get('people')
 
-if len(participants) % 2 != 0:
-    raise ValueError("Number of people needs to be an even number")
-
 data = dict.fromkeys(participants)
 
 for person in data:
